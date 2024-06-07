@@ -1,5 +1,11 @@
-// a function that takes in a string representing a PHP serialised object and returns a JavaScript object
-// Based on code from https://github.com/bd808/php-unserialize-js/blob/main/phpUnserialize.js
+/*
+ * Based on code from https://github.com/bd808/php-unserialize-js/blob/main/phpUnserialize.js,
+ * which is licensed under the MIT License and copyright 2013, Bryan Davis and contributors.
+ * This code is also released under the MIT license
+ * http://www.opensource.org/licenses/MIT
+ */
+
+
 /**
  * Parses serialized PHP data and converts it into JavaScript objects.
  *
